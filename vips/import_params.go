@@ -51,7 +51,7 @@ func MergeImportParams(opts ...*ImportParams) *ImportParams {
 			d.Fail = opt.Fail
 		}
 		if opt.AutoRotate != nil {
-			d.Fail = opt.AutoRotate
+			d.AutoRotate = opt.AutoRotate
 		}
 		if opt.Shrink != nil {
 			d.Shrink = opt.Shrink
